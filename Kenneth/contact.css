@@ -1,0 +1,96 @@
+*{
+
+font-family: "Century Gothic";
+}
+
+.form {
+
+background-color: #3A469C;
+border: #0398D7 5px solid;
+padding:50px;
+width: 60%;
+display: inline-block;
+}
+
+.form-title h2 {
+
+color: white;
+font-size: 50px;
+text-align: center;
+}
+
+.form-title p {
+
+color: white;
+font-size: 15px;
+text-align: center;
+}
+
+.form-title {
+margin-bottom: 50px;
+}
+
+input[type="email"], input[type="password"]  {
+color:#0E98D7;
+background-color: #3A469C;
+width: 100%;
+border: none;
+border-bottom: 2px #0E98D7 solid;
+margin-top: 20px;
+padding: 10px;
+}
+
+input[type="text"] {
+    color:#0E98D7;
+background-color: #3A469C;
+width: 100%;
+border: none;
+border-bottom: 2px #0E98D7 solid;
+margin-top: 20px;
+padding: 10px;
+}
+
+label {
+color: white;
+}
+
+input[type=checkbox] {
+
+    background-color: #3A469C;
+}
+
+input::placeholder {
+
+color:#0E98D7;
+}
+
+.form-body {
+display: inline-block;
+}
+
+.btns input{
+background-color: #3A469C;
+border: white 1px solid;
+padding: 10px;
+color: white
+margin-right:20px;
+}
+.btns {
+
+text-align: center;
+margin-top: 20px;
+}
+
+input[type=submit] {
+
+background-image: url('Next.png');
+background-repeat: no-repeat;
+background-size: 10px 10px;
+background-position:right;
+padding-right:10px;
+}
+
+input[type=text],input[type=password], input[type=email]:focus {
+
+outline: none;
+}
